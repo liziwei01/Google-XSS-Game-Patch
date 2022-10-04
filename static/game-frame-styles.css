@@ -2,18 +2,18 @@ body {
 	background-color: #ffffff;
 	font-family: Verdana, Arial, Helvetica,sans-serif;
 	font-size: 14px;
-  }
-  
-  #level1 {
+}
+
+#level1 {
 	text-align: center;
 	margin: 0 auto;
-  }
-  
-  #level1 form {
+}
+
+#level1 form {
 	margin-top: -16px;
-  }
-  
-  #level1 #query {
+}
+
+#level1 #query {
 	-moz-border-bottom-colors: none;
 	-moz-border-image: none;
 	-moz-border-left-colors: none;
@@ -27,9 +27,9 @@ body {
 	border-width: 1px;
 	font: 14px Verdana, Arial, sans-serif;
 	padding: 4px;
-  }
-  
-  #level1 #button {
+}
+
+#level1 #button {
 	margin: 16px 8px;
 	background-color: #F5F5F5;
 	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
@@ -47,84 +47,84 @@ body {
 	padding: 0 8px;
 	text-align: center;
 	text-decoration: none !important;
-  }
-  
-  #level1 img {
+}
+
+#level1 img {
 	margin: 8px 0 8px 0;
-  }
-  
-  #level1 div {
+}
+
+#level1 div {
 	margin-top: 14px;
-  }
-  
-  /* Persistent XSS demo */
-  #level2 .message img {
+}
+
+/* Persistent XSS demo */
+#level2 .message img {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	margin-right: 10px;
 	margin-top: 5px;
-  }
-  
-  #level2 .date {
+}
+
+#level2 .date {
 	font-size: 10px;
-  }
-  
-  #level2 textarea {
+}
+
+#level2 textarea {
 	border: 1px solid #C4C4C4;
 	box-shadow: 0 1px 2px #DDDDDD inset;
 	padding: 8px 9px;
 	background-color: white;
 	color: #666;
-  }
-  
-  #level2 .message {
+}
+
+#level2 .message {
 	margin-top: 5px;
 	position: relative;
-  }
-  
-  #level2 .shim {
+}
+
+#level2 .shim {
 	position: absolute;
 	background: url("//ssl.gstatic.com/s2/oz/images/sprites/stream-e001443aa61c5529c1aa133a9c12bb49.png") no-repeat scroll -119px -52px transparent;
 	margin-left: -20px;
 	top: 15px;
 	height: 21px;
 	width: 10px;
-  }
-  
-  #level2 #header {
+}
+
+#level2 #header {
 	color: #444;
 	font-size: 17px;
 	text-shadow: 1px 1px #ccc;
 	margin: 10px 0 10px;
-  }
-  
-  #level2 #header div {
+}
+
+#level2 #header div {
 	position: relative;
 	bottom: 10px;
 	padding-left: 14px;
 	display: inline-block;
-  }
-  
-  #level2 .message-container {
+}
+
+#level2 .message-container {
 	padding: 10px;
 	background-color: #F9F9F9;
 	border: 1px solid #C4C4C4;
 	border-radius: 5px 5px;
 	width: 400px;
 	font-size: 12px;
-  }
-  
-  #level2 .message-container b {
+}
+
+#level2 .message-container b {
 	display: block;
 	padding-bottom: 3px;
 	border-bottom: 1px solid #eee;
-  }
-  
-  #level2 form {
+}
+
+#level2 form {
 	display: inline;
-  }
-  
-  #level2 input {
+}
+
+#level2 input {
 	border-radius: 2px 2px 2px 2px;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -140,15 +140,15 @@ body {
 	padding: 0 8px;
 	text-align: center;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
-  }
-  
-  #level2 .share {
+}
+
+#level2 .share {
 	background: none repeat scroll 0 0 #3D9400;
 	border: 1px solid #29691D;
 	float: right;
-  }
-  
-  #level2 .clear {
+}
+
+#level2 .clear {
 	background: none repeat scroll 0 0 #a00;
 	border: 1px solid #600;
 	margin-right: 0px;
@@ -157,58 +157,58 @@ body {
 	position: relative;
 	bottom: 8px;
 	right: 10px;
-  }
-  
-  #level2 .message-container .clear {
+}
+
+#level2 .message-container .clear {
 	margin-right: 0px;
 	margin-top: -1px;
 	position: relative;
 	bottom: 8px;
 	right: 10px;
-  }
-  
-  #level2 .clear {
+}
+
+#level2 .clear {
 	position: absolute;
 	right: 4px;
 	top: 4px;
-  }
-  
-  #level3 {
+}
+
+#level3 {
 	font-family: Helvetica, Verdana, sans-serif;
 	color: #333;
 	width: 580px;
-  }
-  #level3 #header { 
+}
+#level3 #header { 
 	font-size: 20px;
 	font-weight: bold;
-  }
-  
-  #level3 #header img {
+}
+
+#level3 #header img {
 	position: relative;
 	top: -9px;
 	left: 2px;
-  
-  }
-  
-  #level3 #header {
+
+}
+
+#level3 #header {
 	position: relative;
 	z-index: 40;
 	margin-bottom: 5px;
 	height: 50px;
 	color: #187eff;
-  }
-  
-  #level3 #logo {
+}
+
+#level3 #logo {
 	float: left;
-  }
-  
-  #level3 #header span {
+}
+
+#level3 #header span {
 	display: inline-block;
 	padding-top: 15px;
 	padding-left: 10px;
-  }
-  
-  #level3 .tab {
+}
+
+#level3 .tab {
 	display: inline-block;
 	border-width: 2px 2px 0px 2px;
 	border-style: solid;
@@ -219,27 +219,27 @@ body {
 	font-weight: bold;
 	color: white;
 	text-shadow: #666 0.1em 0.1em 0.2em;
-  }
-  
-  #level3 .tab:nth-child(2) {
+}
+
+#level3 .tab:nth-child(2) {
 	/* background-color: #03af11; */
 	background-color: #aaa;
-  }
-  
-  #level3 .tab:nth-child(3) {
+}
+
+#level3 .tab:nth-child(3) {
 	/* background-color: #e6182f; */
 	background-color: #666;
-  }
-  
-  #level3 .tab:nth-child(4) {
+}
+
+#level3 .tab:nth-child(4) {
 	/* background-color: #ffc533; */
 	background-color: #333;
-  }
-  #level3 .tab.active {
+}
+#level3 .tab.active {
 	text-shadow: black 0.1em 0.1em 0.3em;
-  }
-  
-  #level3 #tabContent {
+}
+
+#level3 #tabContent {
 	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: #ccc;
@@ -251,42 +251,41 @@ body {
 	font-size: 18px;
 	font-weight: bold;
 	overflow-y: scroll;
-  }
-  
-  #level4 {
+}
+
+#level4 {
 	text-align: center;
 	margin: 0 auto;
-  }
-  
-  #level4 #timer {
+}
+
+#level4 #timer {
 	text-align: right;
 	border: 1px solid #ccc;
 	width: 70px;
 	text-align: center;
-  }
-  
-  #level5 {
+}
+
+#level5 {
 	text-align: center;
 	margin: 10px auto;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-  }
-  
-  #level6 {
+}
+
+#level6 {
 	text-align: center;
 	background-color: white;
 	background-image: none;
 	color: #666;
-  }
-  
-  #level6 #cube {
+}
+
+#level6 #cube {
 	margin: 15px 0;
 	width: 96px;
 	height: 100px;
-  }
-  
-  #level6 #log {
+}
+
+#level6 #log {
 	margin-top: 20px;
 	font-family: monospace;
-  }
-  
-  
+}
+
